@@ -19,14 +19,14 @@ db
 .then(() =>{
     console.log("Conectou ao bd com sucesso")
 })
-.cath(err =>{
+.catch(err =>{
     console.log("Ocorreu um erro ao conectar", err)
 })
 
 
 // routes
 app.get('/', (req, res) =>{
-    res.send("Está rodando")
+    res.send("Está rodando home")
 
 })
 
