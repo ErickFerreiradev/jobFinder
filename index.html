@@ -10,11 +10,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous" defer></script>
 </head>
+<body>
     <header>
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Job finder</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" arial-controls = "navbarNav" aria-expanded = "false" aria-label="Toggle navigation">
-                <span class="navbar-togller-icon"></span>
+            <a class="navbar-brand" href="index.html">Job Finder</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls = "navbarNav" aria-expanded = "false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav"></div>
                 <ul class="navbar-nav ml-auto">
@@ -30,15 +31,17 @@
     <div id="top-container" class="container-fluid">
         <h1 id="main-title" class="text-center">Encontre o emprego dos seus sonhos</h1>
         <p id="main-subtitle" class="text-center">Somos o site com mais vagas de tecnologia do mercado voltadas a home office</p>
-        <form id="search-form" class="form-inline" action="">
+        <form id="search-form" class="form-flex form-row" action="">
             <div class="form-group col-md-10">
-                <input type="text" class="form-control" id="job" placeholder="Digite a vaga que está buscando">
+              <input type="text" class="form-control" id="job" name="job" placeholder="Digite a vaga que está buscando">
             </div>
             <div class="col-md-2">
-                <button type="submit" class="btn btn-primary">Procurar</button>
+              <button type="submit" class="btn btn-primary">Procurar</button>
+            </div>
+          </form>
             </div>
             <main>
-                <div id="job-contatiner" class="container">
+                <div id="job-container" class="container">
                     <div class="row">
                         <div class="col-md-12">
                             <h2 id="job-list-title">Veja as nossas vagas em destaque</h2>
@@ -78,6 +81,5 @@
                     </div>
                 </div>
             </main>
-        </form>
-    </div>
+    </body>
 </html>
