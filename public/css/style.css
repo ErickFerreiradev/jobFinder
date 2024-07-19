@@ -35,7 +35,7 @@ a.navbar-brand{
     border-radius: 0;
 }
 
-.nav-link.btn.btn-primary:hover, #search-form button:hover, .list-group-item a:hover{
+.nav-link.btn.btn-primary:hover, #search-form button:hover, .list-group-item a:hover, #form-box button:hover{
     background-color: #FFF;
     color: #F03E3E;
     border-color: #F03E3E;
@@ -159,3 +159,55 @@ a.navbar-brand{
 .new-job .new-job-label{
     display: block;
 }
+
+/* add page */
+
+#add-form-container{
+    margin-top: 100px;
+}
+
+div.form-group{
+    padding-bottom: 7px;
+}
+
+#titleHelp{
+    font-weight: bolder;
+}
+
+#form-box{
+    padding: 0;
+    box-shadow: 0 1px 5px rgba(0,0,0,.15);
+    border-radius: 4px;
+    background-color: #FFF;
+
+}
+
+#add-form-container h1{
+    margin-bottom: 30px;
+}
+
+#add-form-container h2{
+    color: #F03E3E;
+    font-weight: bolder;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+#add-form-container form label{
+    font-weight: bold;
+}
+
+#add-form-container form input, #add-form-container form textarea{
+    border: 2px solid #ccc;
+    background-color: #F8F9FA;
+}
+
+#form-box button{
+    height: 50px;
+    width: 200px;
+    background-color: #F03E3E;
+    border: 1px solid transparent;
+    border-radius: 0;
+    margin-top: 20px;
+}
+
