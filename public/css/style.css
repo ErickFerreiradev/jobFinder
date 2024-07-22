@@ -60,7 +60,7 @@ a.navbar-brand{
 }
 
 #main-subtitle{
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding-block: 80px;
 }
 
@@ -211,3 +211,145 @@ div.form-group{
     margin-top: 20px;
 }
 
+/* Job-view */
+
+#job-view-container{
+    margin-top: 100px;
+}
+
+#job-view-container h1{
+    margin-bottom: 30px;
+}
+
+#img-container{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#img-container img{
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid #212529
+}
+
+.job-desc{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.main-color{
+    color: #F03E3E;
+}
+
+a.back-link{
+    border: 1px solid #F03E3E;
+    padding: 5px 10px;
+    width: 6%;
+    transition: .5s;
+}
+
+.back-link:hover{
+    background-color: #F03E3E;
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* responsivo */
+
+@media (max-width: 481px){
+
+    /* navbar */
+
+    #navbarNav {
+        text-align: center;
+        width: 50%;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 5px 5px;
+        font-weight: bold;
+    }
+
+    /* home */
+    #top-container{
+        padding: 50px;
+        padding-top: 100px;
+    }
+
+    #main-title{
+        font-size: 2.2rem;
+    }
+
+    #main-subtitle{
+        font-size: 1.5rem;
+        padding: 5px 5px 5px 5px;
+    }
+
+    #search-form{
+        padding: 0;
+    }
+
+    #jobs-container{
+        padding: 20px;
+    }
+
+    .list-group-item{
+        padding: 15px 85px;
+    }
+
+    .list-group-item h2{
+        font-size: 1.2rem;
+        width: 80%;
+    }
+
+    .list-group-item img{
+        width: 50px;
+        left: 15px;
+        top: calc(50% - 25px)
+    }
+
+    .new-job .new-job-label{
+        display: none;
+    }
+
+    /* Job view*/
+
+    a.back-link{
+        margin-left: 30px;
+        margin-top: 20px;
+        width: 15%;
+    }
+
+    #job-view-container p{
+        font-size: 1.3rem;
+    }
+
+    #job-desc{
+        width: 80%;
+    }
+
+    /* add view */
+
+    #form-box{
+        padding: 25px;
+    }
+
+    h1.text-center{
+        margin-top: 15px;
+    }
+
+    #form-box h2{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #form-box button{
+        width: 100%;
+    }
+}
